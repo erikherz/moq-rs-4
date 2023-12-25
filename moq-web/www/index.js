@@ -1,3 +1,3 @@
 import * as moq from "moq-web";
 
-moq.greet();
+moq.greet("ya boy");
