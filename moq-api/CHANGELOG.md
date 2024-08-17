@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1](https://github.com/erikherz/moq-rs-4/compare/moq-api-v0.2.0...moq-api-v0.2.1) - 2024-08-17
+
+### Other
+- Update client.rs
+- Add routes do_edge and do_regex to implement parent cache
+- really small correction with url.join ([#181](https://github.com/erikherz/moq-rs-4/pull/181))
+
 ## [0.1.2](https://github.com/kixelated/moq-rs/compare/moq-api-v0.1.1...moq-api-v0.1.2) - 2024-07-24
 
 ### Other
