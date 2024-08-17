@@ -41,9 +41,9 @@ impl Client {
                 let regex_parts: Vec<&str> = original_path[regex_pos + 10..].split('/').collect();
                 if regex_parts.len() == 3 {
                     regex_values = (
-                        regex_parts[0].to_string(),  // "ohio"
-                        regex_parts[1].to_string(),  // "origin"
-                        regex_parts[2].to_string(),  // "regional"
+                        regex_parts[0].to_string(),  // e.g., "ohio"
+                        regex_parts[1].to_string(),  // e.g., "origin"
+                        regex_parts[2].to_string(),  // e.g., "regional"
                     );
                     println!("Captured do_regex values: {:?}", regex_values);
                 }
